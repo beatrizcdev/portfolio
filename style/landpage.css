@@ -88,6 +88,10 @@ main{
     height: fit-content;
 }
 
+.gdr img{
+    border-radius: 30px;
+}
+
 #titulo-projetos {
   scroll-margin-top: 120px;
 }
