@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "bellaboo";
-    src: url("./fontes/bellaboo-1.ttf") format("truetype");
+  font-family: "bellaboo";
+  src: url("./fontes/bellaboo-1.ttf") format("truetype");
 }
 
 :root {
@@ -17,53 +17,52 @@
   --verde-azulado: #3b856f;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: var(--bege-neutro);
-    max-width: 100%;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bege-neutro);
+  max-width: 100%;
 }
 
-header{
-    background-color: var(--azul);
-    font-family: 'farsan', sans-serif;
-    font-size: 20px;
-    padding: 20px 20%;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 20;
-    width: 100%;
-    border-radius: 0px 0px 20px 20px;
+header {
+  background-color: var(--azul);
+  font-family: "farsan", sans-serif;
+  font-size: 20px;
+  padding: 20px 20%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
   transform: scale(1.1);
 }
 
-
 .footer {
   text-align: center;
   padding: 40px 20px;
-  background-color: var(--verde-azulado); 
-  font-family: 'farsan', sans-serif;
-    font-size: 30px;
-    margin-top: 8%;
-    padding-bottom: 100px;
-    color: white;
+  background-color: var(--verde-azulado);
+  font-family: "farsan", sans-serif;
+  font-size: 30px;
+  margin-top: 8%;
+  padding-bottom: 100px;
+  color: white;
 }
 
 .social-links {
@@ -80,7 +79,7 @@ a:hover {
   gap: 6px;
   text-decoration: none;
   color: inherit;
-  font-family: 'farsan', sans-serif;
+  font-family: "farsan", sans-serif;
   transition: opacity 0.3s ease;
   font-size: 20px;
   color: white;
